@@ -1,0 +1,4 @@
+[2026-05-23 20:04:30] info: TC_API_NEG_003 - GET non-existing user id=41426
+[2026-05-23 20:04:30] info: UserApiService.getNonExistentUser — id: 41426
+[2026-05-23 20:04:30] info: → GET https://reqres.in/api/users/41426 | {"headers":{"Accept":"application/json","Content-Type":"application/json","x-api-key":"pub_6184fe809a0fa9dca94366e52019c85f4893f6e35b9c0818da778169ada7bcd3"},"params":{}}
+[2026-05-23 20:04:30] warn: ← ERROR 404 GET /api/users/41426 Request failed with status code 404 | {"status":404,"data":{}}

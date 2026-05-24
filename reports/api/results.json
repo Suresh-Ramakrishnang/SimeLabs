@@ -1,0 +1,456 @@
+{
+  "config": {
+    "configFile": "C:\\Projects\\SimeLabs\\playwright.config.js",
+    "rootDir": "C:/Projects/SimeLabs/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Projects/SimeLabs/reports/api/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Projects/SimeLabs/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "tests/web/**/*.spec.js"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "C:/Projects/SimeLabs/reports/api/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "api",
+        "name": "api",
+        "testDir": "C:/Projects/SimeLabs/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "tests/api/**/*.spec.js"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "reports/api/html",
+          "open": "never"
+        }
+      ],
+      [
+        "C:\\Projects\\SimeLabs\\node_modules\\allure-playwright\\dist\\cjs\\index.js",
+        {
+          "resultsDir": "reports/api/allure-results",
+          "detail": true
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "reports/api/results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "runAgents": "none",
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.58.2",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "api\\users.spec.js",
+      "file": "api/users.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "API | Users CRUD Scenarios",
+          "file": "api/users.spec.js",
+          "line": 10,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC_API_001 | Create user - POST /api/users",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 566,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[2026-05-23 21:26:42] \u001b[32minfo\u001b[39m: \u001b[32mTC_API_001 - Create user\u001b[39m\r\n"
+                        },
+                        {
+                          "text": "[2026-05-23 21:26:42] \u001b[32minfo\u001b[39m: \u001b[32mUserApiService.createUser\u001b[39m | {\"payload\":{\"name\":\"Roland Pacocha\",\"job\":\"Chief Intranet Specialist\"}}\r\n"
+                        },
+                        {
+                          "text": "[2026-05-23 21:26:42] \u001b[32minfo\u001b[39m: \u001b[32m→ POST https://reqres.in/api/users\u001b[39m | {\"headers\":{\"Accept\":\"application/json\",\"Content-Type\":\"application/json\",\"x-api-key\":\"pub_6184fe809a0fa9dca94366e52019c85f4893f6e35b9c0818da778169ada7bcd3\"},\"data\":{\"name\":\"Roland Pacocha\",\"job\":\"Chief Intranet Specialist\"}}\r\n"
+                        },
+                        {
+                          "text": "[2026-05-23 21:26:43] \u001b[32minfo\u001b[39m: \u001b[32m← 201 POST /api/users\u001b[39m | {\"status\":201,\"data\":{\"name\":\"Roland Pacocha\",\"job\":\"Chief Intranet Specialist\",\"id\":\"938\",\"createdAt\":\"2026-05-23T15:56:43.245Z\",\"_meta\":{\"powered_by\":\"ReqRes\",\"docs_url\":\"https://app.reqres.in/documentation\",\"upgrade_url\":\"https://app.reqres.in/upgrade\",\"example_url\":\"https://app.reqres.in/examples/notes-app\",\"variant\":\"v1_a\",\"message\":\"Your data persists here. Add auth, logs, and custom schemas to build a real backend.\",\"cta\":{\"label\":\"See example app\",\"url\":\"https://app.reqres.in/examples/notes-app\"},\"context\":\"legacy_success\"}}}\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-23T15:56:42.517Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "31386b57804678bd0bed-461eeebda7b4578edc8c",
+              "file": "api/users.spec.js",
+              "line": 11,
+              "column": 7
+            },
+            {
+              "title": "TC_API_002 | Read user - GET /api/users/{id}",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 401,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[2026-05-23 21:26:43] \u001b[32minfo\u001b[39m: \u001b[32mTC_API_002 - Read user id=2\u001b[39m\r\n"
+                        },
+                        {
+                          "text": "[2026-05-23 21:26:43] \u001b[32minfo\u001b[39m: \u001b[32mUserApiService.getUserById — id: 2\u001b[39m\r\n"
+                        },
+                        {
+                          "text": "[2026-05-23 21:26:43] \u001b[32minfo\u001b[39m: \u001b[32m→ GET https://reqres.in/api/users/2\u001b[39m | {\"headers\":{\"Accept\":\"application/json\",\"Content-Type\":\"application/json\",\"x-api-key\":\"pub_6184fe809a0fa9dca94366e52019c85f4893f6e35b9c0818da778169ada7bcd3\"},\"params\":{}}\r\n"
+                        },
+                        {
+                          "text": "[2026-05-23 21:26:43] \u001b[32minfo\u001b[39m: \u001b[32m← 200 GET /api/users/2\u001b[39m | {\"status\":200,\"data\":{\"data\":{\"id\":2,\"email\":\"janet.weaver@reqres.in\",\"first_name\":\"Janet\",\"last_name\":\"Weaver\",\"avatar\":\"https://reqres.in/img/faces/2-image.jpg\"},\"support\":{\"url\":\"https://benhowdle.im/first-cto-playbook?utm_source=reqres&utm_medium=json&utm_campaign=referral\",\"text\":\"Become a better CTO. A playbook of painful stories and practical advice from a two-time startup CTO.\"},\"_meta\":{\"powered_by\":\"ReqRes\",\"docs_url\":\"https://app.reqres.in/documentation\",\"upgrade_url\":\"https://app.reqres.in/upgrade\",\"example_url\":\"https://app.reqres.in/examples/notes-app\",\"variant\":\"v1_a\",\"message\":\"Your data persists here. Add auth, logs, and custom schemas to build a real backend.\",\"cta\":{\"label\":\"See example app\",\"url\":\"https://app.reqres.in/examples/notes-app\"},\"context\":\"legacy_success\"}}}\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-23T15:56:43.114Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "31386b57804678bd0bed-af66f8a1986c88407af6",
+              "file": "api/users.spec.js",
+              "line": 24,
+              "column": 7
+            },
+            {
+              "title": "TC_API_003 | Update user - PUT /api/users/{id}",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 285,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[2026-05-23 21:26:43] \u001b[32minfo\u001b[39m: \u001b[32mTC_API_003 - Update user id=2\u001b[39m\r\n"
+                        },
+                        {
+                          "text": "[2026-05-23 21:26:43] \u001b[32minfo\u001b[39m: \u001b[32mUserApiService.updateUser — id: 2\u001b[39m | {\"payload\":{\"name\":\"Mrs. Toni Leannon\",\"job\":\"Human Division Analyst\"}}\r\n"
+                        },
+                        {
+                          "text": "[2026-05-23 21:26:43] \u001b[32minfo\u001b[39m: \u001b[32m→ PUT https://reqres.in/api/users/2\u001b[39m | {\"headers\":{\"Accept\":\"application/json\",\"Content-Type\":\"application/json\",\"x-api-key\":\"pub_6184fe809a0fa9dca94366e52019c85f4893f6e35b9c0818da778169ada7bcd3\"},\"data\":{\"name\":\"Mrs. Toni Leannon\",\"job\":\"Human Division Analyst\"}}\r\n"
+                        },
+                        {
+                          "text": "[2026-05-23 21:26:43] \u001b[32minfo\u001b[39m: \u001b[32m← 200 PUT /api/users/2\u001b[39m | {\"status\":200,\"data\":{\"name\":\"Mrs. Toni Leannon\",\"job\":\"Human Division Analyst\",\"updatedAt\":\"2026-05-23T15:56:44.002Z\",\"_meta\":{\"powered_by\":\"ReqRes\",\"docs_url\":\"https://app.reqres.in/documentation\",\"upgrade_url\":\"https://app.reqres.in/upgrade\",\"example_url\":\"https://app.reqres.in/examples/notes-app\",\"variant\":\"v1_a\",\"message\":\"Your data persists here. Add auth, logs, and custom schemas to build a real backend.\",\"cta\":{\"label\":\"See example app\",\"url\":\"https://app.reqres.in/examples/notes-app\"},\"context\":\"legacy_success\"}}}\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-23T15:56:43.525Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "31386b57804678bd0bed-2889bcc9f540811c8d89",
+              "file": "api/users.spec.js",
+              "line": 38,
+              "column": 7
+            },
+            {
+              "title": "TC_API_004 | Delete user - DELETE /api/users/{id}",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 287,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[2026-05-23 21:26:43] \u001b[32minfo\u001b[39m: \u001b[32mTC_API_004 - Delete user id=2\u001b[39m\r\n"
+                        },
+                        {
+                          "text": "[2026-05-23 21:26:43] \u001b[32minfo\u001b[39m: \u001b[32mUserApiService.deleteUser — id: 2\u001b[39m\r\n"
+                        },
+                        {
+                          "text": "[2026-05-23 21:26:43] \u001b[32minfo\u001b[39m: \u001b[32m→ DELETE https://reqres.in/api/users/2\u001b[39m | {\"headers\":{\"Accept\":\"application/json\",\"Content-Type\":\"application/json\",\"x-api-key\":\"pub_6184fe809a0fa9dca94366e52019c85f4893f6e35b9c0818da778169ada7bcd3\"}}\r\n"
+                        },
+                        {
+                          "text": "[2026-05-23 21:26:44] \u001b[32minfo\u001b[39m: \u001b[32m← 204 DELETE /api/users/2\u001b[39m | {\"status\":204,\"data\":\"\"}\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-23T15:56:43.822Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "31386b57804678bd0bed-dc05c646e3c8653fce55",
+              "file": "api/users.spec.js",
+              "line": 51,
+              "column": 7
+            }
+          ]
+        },
+        {
+          "title": "API | Users Negative Scenarios",
+          "file": "api/users.spec.js",
+          "line": 63,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC_API_NEG_001 | Invalid endpoint should return 404",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 196,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[2026-05-23 21:26:44] \u001b[32minfo\u001b[39m: \u001b[32mTC_API_NEG_001 - POST to invalid endpoint\u001b[39m\r\n"
+                        },
+                        {
+                          "text": "[2026-05-23 21:26:44] \u001b[32minfo\u001b[39m: \u001b[32mUserApiService.postToInvalidEndpoint\u001b[39m\r\n"
+                        },
+                        {
+                          "text": "[2026-05-23 21:26:44] \u001b[32minfo\u001b[39m: \u001b[32m→ GET https://reqres.in/api/users/2/invalid\u001b[39m | {\"headers\":{\"Accept\":\"application/json\",\"Content-Type\":\"application/json\",\"x-api-key\":\"pub_6184fe809a0fa9dca94366e52019c85f4893f6e35b9c0818da778169ada7bcd3\"},\"params\":{}}\r\n"
+                        },
+                        {
+                          "text": "[2026-05-23 21:26:44] \u001b[33mwarn\u001b[39m: \u001b[33m← ERROR 404 GET /api/users/2/invalid Request failed with status code 404\u001b[39m | {\"status\":404,\"data\":{}}\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-23T15:56:44.118Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "31386b57804678bd0bed-cf91a088ec70bfa05e3d",
+              "file": "api/users.spec.js",
+              "line": 64,
+              "column": 7
+            },
+            {
+              "title": "TC_API_NEG_002 | Invalid payload should be handled",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 205,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[2026-05-23 21:26:44] \u001b[32minfo\u001b[39m: \u001b[32mTC_API_NEG_002 - Create user with empty payload\u001b[39m\r\n"
+                        },
+                        {
+                          "text": "[2026-05-23 21:26:44] \u001b[32minfo\u001b[39m: \u001b[32mUserApiService.createUserWithEmptyPayload\u001b[39m\r\n"
+                        },
+                        {
+                          "text": "[2026-05-23 21:26:44] \u001b[32minfo\u001b[39m: \u001b[32m→ POST https://reqres.in/api/users\u001b[39m | {\"headers\":{\"Accept\":\"application/json\",\"Content-Type\":\"application/json\",\"x-api-key\":\"pub_6184fe809a0fa9dca94366e52019c85f4893f6e35b9c0818da778169ada7bcd3\"},\"data\":{}}\r\n"
+                        },
+                        {
+                          "text": "[2026-05-23 21:26:44] \u001b[32minfo\u001b[39m: \u001b[32m← 201 POST /api/users\u001b[39m | {\"status\":201,\"data\":{\"id\":\"403\",\"createdAt\":\"2026-05-23T15:56:44.781Z\",\"_meta\":{\"powered_by\":\"ReqRes\",\"docs_url\":\"https://app.reqres.in/documentation\",\"upgrade_url\":\"https://app.reqres.in/upgrade\",\"example_url\":\"https://app.reqres.in/examples/notes-app\",\"variant\":\"v1_a\",\"message\":\"Your data persists here. Add auth, logs, and custom schemas to build a real backend.\",\"cta\":{\"label\":\"See example app\",\"url\":\"https://app.reqres.in/examples/notes-app\"},\"context\":\"legacy_success\"}}}\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-23T15:56:44.323Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "31386b57804678bd0bed-c140997196db9c4d10fa",
+              "file": "api/users.spec.js",
+              "line": 74,
+              "column": 7
+            },
+            {
+              "title": "TC_API_NEG_003 | Retrieve non-existing user should return 404",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 313,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[2026-05-23 21:26:44] \u001b[32minfo\u001b[39m: \u001b[32mTC_API_NEG_003 - GET non-existing user id=11723\u001b[39m\r\n"
+                        },
+                        {
+                          "text": "[2026-05-23 21:26:44] \u001b[32minfo\u001b[39m: \u001b[32mUserApiService.getNonExistentUser — id: 11723\u001b[39m\r\n"
+                        },
+                        {
+                          "text": "[2026-05-23 21:26:44] \u001b[32minfo\u001b[39m: \u001b[32m→ GET https://reqres.in/api/users/11723\u001b[39m | {\"headers\":{\"Accept\":\"application/json\",\"Content-Type\":\"application/json\",\"x-api-key\":\"pub_6184fe809a0fa9dca94366e52019c85f4893f6e35b9c0818da778169ada7bcd3\"},\"params\":{}}\r\n"
+                        },
+                        {
+                          "text": "[2026-05-23 21:26:44] \u001b[33mwarn\u001b[39m: \u001b[33m← ERROR 404 GET /api/users/11723 Request failed with status code 404\u001b[39m | {\"status\":404,\"data\":{}}\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-23T15:56:44.539Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "31386b57804678bd0bed-4a5536eb733c97428d4e",
+              "file": "api/users.spec.js",
+              "line": 87,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-05-23T15:56:38.772Z",
+    "duration": 6128.004000000001,
+    "expected": 7,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

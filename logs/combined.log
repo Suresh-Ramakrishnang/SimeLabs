@@ -1,0 +1,110 @@
+{"level":"info","message":"Navigating to Home page","timestamp":"2026-05-23T16:29:11.124Z"}
+{"level":"info","message":"Navigating to: /","timestamp":"2026-05-23T16:29:11.126Z"}
+{"level":"info","message":"Clicking Signup / Login nav link","timestamp":"2026-05-23T16:29:19.118Z"}
+{"level":"info","message":"Entering signup details — name: Suresh, email: suresh1779553751118@gmail.com","timestamp":"2026-05-23T16:29:21.076Z"}
+{"level":"info","message":"Filling account info form","timestamp":"2026-05-23T16:29:30.632Z"}
+{"level":"info","message":"Clicking Continue on account created page","timestamp":"2026-05-23T16:30:06.077Z"}
+{"level":"info","message":"Navigating to Home page","timestamp":"2026-05-23T16:46:31.648Z"}
+{"level":"info","message":"Navigating to: /","timestamp":"2026-05-23T16:46:31.649Z"}
+{"level":"info","message":"Clicking Signup / Login nav link","timestamp":"2026-05-23T16:46:34.796Z"}
+{"level":"info","message":"Entering signup details — name: Suresh, email: suresh1779554791644@gmail.com","timestamp":"2026-05-23T16:46:36.522Z"}
+{"level":"info","message":"Navigating to Home page","timestamp":"2026-05-23T16:47:51.057Z"}
+{"level":"info","message":"Navigating to: /","timestamp":"2026-05-23T16:47:51.059Z"}
+{"level":"info","message":"Clicking Signup / Login nav link","timestamp":"2026-05-23T16:47:54.344Z"}
+{"level":"info","message":"Entering signup details — name: Suresh, email: suresh1779554871053@gmail.com","timestamp":"2026-05-23T16:47:56.144Z"}
+{"level":"info","message":"Navigating to Home page","timestamp":"2026-05-23T17:08:17.573Z"}
+{"level":"info","message":"Navigating to: /","timestamp":"2026-05-23T17:08:17.574Z"}
+{"level":"info","message":"Clicking Signup / Login nav link","timestamp":"2026-05-23T17:08:20.388Z"}
+{"level":"info","message":"Entering signup details — name: Suresh, email: suresh1779556097570@gmail.com","timestamp":"2026-05-23T17:08:22.066Z"}
+{"level":"info","message":"Navigating to Home page","timestamp":"2026-05-23T17:12:12.198Z"}
+{"level":"info","message":"Navigating to: /","timestamp":"2026-05-23T17:12:12.199Z"}
+{"level":"info","message":"Clicking Signup / Login nav link","timestamp":"2026-05-23T17:12:14.974Z"}
+{"level":"info","message":"Entering signup details — name: Suresh, email: suresh1779556332194@gmail.com","timestamp":"2026-05-23T17:12:16.391Z"}
+{"level":"info","message":"Filling account info form","timestamp":"2026-05-23T17:12:25.338Z"}
+{"level":"info","message":"Clicking Continue on account created page","timestamp":"2026-05-23T17:12:57.454Z"}
+{"level":"info","message":"Navigating to Home page","timestamp":"2026-05-23T17:19:57.270Z"}
+{"level":"info","message":"Navigating to: /","timestamp":"2026-05-23T17:19:57.271Z"}
+{"level":"info","message":"Clicking Signup / Login nav link","timestamp":"2026-05-23T17:20:00.571Z"}
+{"level":"info","message":"Entering signup details — name: Darren Satterfield, email: qa.auto.1779556797264@mailtest.dev","timestamp":"2026-05-23T17:20:01.682Z"}
+{"level":"info","message":"Filling account info form","timestamp":"2026-05-23T17:20:07.305Z"}
+{"level":"info","message":"Clicking Continue on account created page","timestamp":"2026-05-23T17:20:25.620Z"}
+{"level":"info","message":"Clicking Logout nav link","timestamp":"2026-05-23T17:20:26.747Z"}
+{"level":"info","message":"Logging in as: qa.auto.1779556797264@mailtest.dev","timestamp":"2026-05-23T17:20:28.330Z"}
+{"level":"info","message":"Navigating to Products page","timestamp":"2026-05-23T17:20:32.813Z"}
+{"level":"info","message":"Adding first product to cart","timestamp":"2026-05-23T17:20:34.344Z"}
+{"level":"info","message":"Add to cart modal appeared","timestamp":"2026-05-23T17:20:39.138Z"}
+{"level":"info","message":"Clicking View Cart from modal","timestamp":"2026-05-23T17:20:39.138Z"}
+{"level":"info","message":"Proceeding to checkout","timestamp":"2026-05-23T17:20:41.693Z"}
+{"level":"info","message":"Navigating to Home page","timestamp":"2026-05-23T17:26:48.737Z"}
+{"level":"info","message":"Navigating to: /","timestamp":"2026-05-23T17:26:48.738Z"}
+{"level":"info","message":"Clicking Signup / Login nav link","timestamp":"2026-05-23T17:26:50.952Z"}
+{"level":"info","message":"Entering signup details — name: Marc Leffler, email: qa.auto.1779557208731@mailtest.dev","timestamp":"2026-05-23T17:26:52.052Z"}
+{"level":"info","message":"Filling account info form","timestamp":"2026-05-23T17:26:57.760Z"}
+{"level":"info","message":"Clicking Continue on account created page","timestamp":"2026-05-23T17:27:15.737Z"}
+{"level":"info","message":"Clicking Logout nav link","timestamp":"2026-05-23T17:27:16.738Z"}
+{"level":"info","message":"Logging in as: qa.auto.1779557208731@mailtest.dev","timestamp":"2026-05-23T17:27:18.655Z"}
+{"level":"info","message":"Navigating to Products page","timestamp":"2026-05-23T17:27:23.141Z"}
+{"level":"info","message":"Adding first product to cart","timestamp":"2026-05-23T17:27:24.477Z"}
+{"level":"info","message":"Add to cart modal appeared","timestamp":"2026-05-23T17:27:28.825Z"}
+{"level":"info","message":"Clicking View Cart from modal","timestamp":"2026-05-23T17:27:28.825Z"}
+{"level":"info","message":"Proceeding to checkout","timestamp":"2026-05-23T17:27:31.363Z"}
+{"level":"info","message":"Clicking Delete Account nav link","timestamp":"2026-05-23T17:27:35.564Z"}
+{"level":"info","message":"Clicking Continue after account deletion","timestamp":"2026-05-23T17:27:36.546Z"}
+{"level":"info","message":"Navigating to Home page","timestamp":"2026-05-23T17:47:15.790Z"}
+{"level":"info","message":"Navigating to: /","timestamp":"2026-05-23T17:47:15.791Z"}
+{"level":"info","message":"Clicking Signup / Login nav link","timestamp":"2026-05-23T17:47:19.284Z"}
+{"level":"info","message":"Entering signup details — name: Suresh R, email: suresh.ui.1779558435786@mailtest.dev","timestamp":"2026-05-23T17:47:20.573Z"}
+{"level":"info","message":"Filling account info form","timestamp":"2026-05-23T17:47:26.266Z"}
+{"level":"info","message":"Clicking Continue on account created page","timestamp":"2026-05-23T17:47:44.973Z"}
+{"level":"info","message":"Clicking Logout nav link","timestamp":"2026-05-23T17:47:46.159Z"}
+{"level":"info","message":"Logging in as: suresh.ui.1779558435786@mailtest.dev","timestamp":"2026-05-23T17:47:48.522Z"}
+{"level":"info","message":"Navigating to Products page","timestamp":"2026-05-23T17:47:53.184Z"}
+{"level":"info","message":"Adding first product to cart","timestamp":"2026-05-23T17:47:54.629Z"}
+{"level":"info","message":"Add to cart modal appeared","timestamp":"2026-05-23T17:47:57.516Z"}
+{"level":"info","message":"Clicking View Cart from modal","timestamp":"2026-05-23T17:47:57.517Z"}
+{"level":"info","message":"Proceeding to checkout","timestamp":"2026-05-23T17:48:00.532Z"}
+{"level":"info","message":"Clicking Delete Account nav link","timestamp":"2026-05-23T17:48:02.367Z"}
+{"level":"info","message":"Clicking Continue after account deletion","timestamp":"2026-05-23T17:48:03.862Z"}
+{"level":"info","message":"Navigating to Home page","timestamp":"2026-05-23T17:52:08.608Z"}
+{"level":"info","message":"Navigating to: /","timestamp":"2026-05-23T17:52:08.609Z"}
+{"level":"info","message":"Clicking Signup / Login nav link","timestamp":"2026-05-23T17:52:11.006Z"}
+{"level":"info","message":"Entering signup details — name: Suresh R, email: suresh.ui.1779558728604@mailtest.dev","timestamp":"2026-05-23T17:52:12.058Z"}
+{"level":"info","message":"Filling account info form","timestamp":"2026-05-23T17:52:17.385Z"}
+{"level":"info","message":"Clicking Continue on account created page","timestamp":"2026-05-23T17:52:35.390Z"}
+{"level":"info","message":"Clicking Logout nav link","timestamp":"2026-05-23T17:52:36.666Z"}
+{"level":"info","message":"Logging in as: suresh.ui.1779558728604@mailtest.dev","timestamp":"2026-05-23T17:52:38.482Z"}
+{"level":"info","message":"Navigating to Products page","timestamp":"2026-05-23T17:52:42.357Z"}
+{"level":"info","message":"Adding first product to cart","timestamp":"2026-05-23T17:52:43.834Z"}
+{"level":"info","message":"Add to cart modal appeared","timestamp":"2026-05-23T17:52:46.242Z"}
+{"level":"info","message":"Clicking View Cart from modal","timestamp":"2026-05-23T17:52:46.243Z"}
+{"level":"info","message":"Proceeding to checkout","timestamp":"2026-05-23T17:52:49.207Z"}
+{"level":"info","message":"Clicking Delete Account nav link","timestamp":"2026-05-23T17:52:51.728Z"}
+{"level":"info","message":"Clicking Continue after account deletion","timestamp":"2026-05-23T17:52:52.730Z"}
+{"level":"info","message":"TC_API_001 - Create user","timestamp":"2026-05-23T17:53:00.451Z"}
+{"level":"info","message":"UserApiService.createUser","payload":{"job":"International Usability Consultant","name":"Mrs. Kristina Nicolas-Bradtke"},"timestamp":"2026-05-23T17:53:00.452Z"}
+{"data":{"job":"International Usability Consultant","name":"Mrs. Kristina Nicolas-Bradtke"},"headers":{"Accept":"application/json","Content-Type":"application/json","x-api-key":"pub_6184fe809a0fa9dca94366e52019c85f4893f6e35b9c0818da778169ada7bcd3"},"level":"info","message":"→ POST https://reqres.in/api/users","timestamp":"2026-05-23T17:53:00.454Z"}
+{"data":{"_meta":{"context":"legacy_success","cta":{"label":"See example app","url":"https://app.reqres.in/examples/notes-app"},"docs_url":"https://app.reqres.in/documentation","example_url":"https://app.reqres.in/examples/notes-app","message":"Your data persists here. Add auth, logs, and custom schemas to build a real backend.","powered_by":"ReqRes","upgrade_url":"https://app.reqres.in/upgrade","variant":"v1_a"},"createdAt":"2026-05-23T17:53:01.098Z","id":"386","job":"International Usability Consultant","name":"Mrs. Kristina Nicolas-Bradtke"},"level":"info","message":"← 201 POST /api/users","status":201,"timestamp":"2026-05-23T17:53:01.038Z"}
+{"level":"info","message":"TC_API_002 - Read user id=2","timestamp":"2026-05-23T17:53:01.090Z"}
+{"level":"info","message":"UserApiService.getUserById — id: 2","timestamp":"2026-05-23T17:53:01.090Z"}
+{"headers":{"Accept":"application/json","Content-Type":"application/json","x-api-key":"pub_6184fe809a0fa9dca94366e52019c85f4893f6e35b9c0818da778169ada7bcd3"},"level":"info","message":"→ GET https://reqres.in/api/users/2","params":{},"timestamp":"2026-05-23T17:53:01.091Z"}
+{"data":{"_meta":{"context":"legacy_success","cta":{"label":"See example app","url":"https://app.reqres.in/examples/notes-app"},"docs_url":"https://app.reqres.in/documentation","example_url":"https://app.reqres.in/examples/notes-app","message":"Your data persists here. Add auth, logs, and custom schemas to build a real backend.","powered_by":"ReqRes","upgrade_url":"https://app.reqres.in/upgrade","variant":"v1_a"},"data":{"avatar":"https://reqres.in/img/faces/2-image.jpg","email":"janet.weaver@reqres.in","first_name":"Janet","id":2,"last_name":"Weaver"},"support":{"text":"Become a better CTO. A playbook of painful stories and practical advice from a two-time startup CTO.","url":"https://benhowdle.im/first-cto-playbook?utm_source=reqres&utm_medium=json&utm_campaign=referral"}},"level":"info","message":"← 200 GET /api/users/2","status":200,"timestamp":"2026-05-23T17:53:01.449Z"}
+{"level":"info","message":"TC_API_003 - Update user id=2","timestamp":"2026-05-23T17:53:01.477Z"}
+{"level":"info","message":"UserApiService.updateUser — id: 2","payload":{"job":"Global Interactions Representative","name":"Sharon Ferry"},"timestamp":"2026-05-23T17:53:01.477Z"}
+{"data":{"job":"Global Interactions Representative","name":"Sharon Ferry"},"headers":{"Accept":"application/json","Content-Type":"application/json","x-api-key":"pub_6184fe809a0fa9dca94366e52019c85f4893f6e35b9c0818da778169ada7bcd3"},"level":"info","message":"→ PUT https://reqres.in/api/users/2","timestamp":"2026-05-23T17:53:01.478Z"}
+{"data":{"_meta":{"context":"legacy_success","cta":{"label":"See example app","url":"https://app.reqres.in/examples/notes-app"},"docs_url":"https://app.reqres.in/documentation","example_url":"https://app.reqres.in/examples/notes-app","message":"Your data persists here. Add auth, logs, and custom schemas to build a real backend.","powered_by":"ReqRes","upgrade_url":"https://app.reqres.in/upgrade","variant":"v1_a"},"job":"Global Interactions Representative","name":"Sharon Ferry","updatedAt":"2026-05-23T17:53:01.809Z"},"level":"info","message":"← 200 PUT /api/users/2","status":200,"timestamp":"2026-05-23T17:53:01.749Z"}
+{"level":"info","message":"TC_API_004 - Delete user id=2","timestamp":"2026-05-23T17:53:01.779Z"}
+{"level":"info","message":"UserApiService.deleteUser — id: 2","timestamp":"2026-05-23T17:53:01.780Z"}
+{"headers":{"Accept":"application/json","Content-Type":"application/json","x-api-key":"pub_6184fe809a0fa9dca94366e52019c85f4893f6e35b9c0818da778169ada7bcd3"},"level":"info","message":"→ DELETE https://reqres.in/api/users/2","timestamp":"2026-05-23T17:53:01.780Z"}
+{"data":"","level":"info","message":"← 204 DELETE /api/users/2","status":204,"timestamp":"2026-05-23T17:53:02.055Z"}
+{"level":"info","message":"TC_API_NEG_001 - POST to invalid endpoint","timestamp":"2026-05-23T17:53:02.078Z"}
+{"level":"info","message":"UserApiService.postToInvalidEndpoint","timestamp":"2026-05-23T17:53:02.078Z"}
+{"headers":{"Accept":"application/json","Content-Type":"application/json","x-api-key":"pub_6184fe809a0fa9dca94366e52019c85f4893f6e35b9c0818da778169ada7bcd3"},"level":"info","message":"→ GET https://reqres.in/api/users/2/invalid","params":{},"timestamp":"2026-05-23T17:53:02.079Z"}
+{"data":{},"level":"warn","message":"← ERROR 404 GET /api/users/2/invalid Request failed with status code 404","status":404,"timestamp":"2026-05-23T17:53:02.422Z"}
+{"level":"info","message":"TC_API_NEG_002 - Create user with empty payload","timestamp":"2026-05-23T17:53:02.443Z"}
+{"level":"info","message":"UserApiService.createUserWithEmptyPayload","timestamp":"2026-05-23T17:53:02.443Z"}
+{"data":{},"headers":{"Accept":"application/json","Content-Type":"application/json","x-api-key":"pub_6184fe809a0fa9dca94366e52019c85f4893f6e35b9c0818da778169ada7bcd3"},"level":"info","message":"→ POST https://reqres.in/api/users","timestamp":"2026-05-23T17:53:02.443Z"}
+{"data":{"_meta":{"context":"legacy_success","cta":{"label":"See example app","url":"https://app.reqres.in/examples/notes-app"},"docs_url":"https://app.reqres.in/documentation","example_url":"https://app.reqres.in/examples/notes-app","message":"Your data persists here. Add auth, logs, and custom schemas to build a real backend.","powered_by":"ReqRes","upgrade_url":"https://app.reqres.in/upgrade","variant":"v1_a"},"createdAt":"2026-05-23T17:53:02.777Z","id":"490"},"level":"info","message":"← 201 POST /api/users","status":201,"timestamp":"2026-05-23T17:53:02.667Z"}
+{"level":"info","message":"TC_API_NEG_003 - GET non-existing user id=37043","timestamp":"2026-05-23T17:53:02.691Z"}
+{"level":"info","message":"UserApiService.getNonExistentUser — id: 37043","timestamp":"2026-05-23T17:53:02.691Z"}
+{"headers":{"Accept":"application/json","Content-Type":"application/json","x-api-key":"pub_6184fe809a0fa9dca94366e52019c85f4893f6e35b9c0818da778169ada7bcd3"},"level":"info","message":"→ GET https://reqres.in/api/users/37043","params":{},"timestamp":"2026-05-23T17:53:02.691Z"}
+{"data":{},"level":"warn","message":"← ERROR 404 GET /api/users/37043 Request failed with status code 404","status":404,"timestamp":"2026-05-23T17:53:03.077Z"}

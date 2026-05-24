@@ -1,0 +1,15 @@
+[2026-05-23 23:22:08] info: Navigating to Home page
+[2026-05-23 23:22:08] info: Navigating to: /
+[2026-05-23 23:22:11] info: Clicking Signup / Login nav link
+[2026-05-23 23:22:12] info: Entering signup details — name: Suresh R, email: suresh.ui.1779558728604@mailtest.dev
+[2026-05-23 23:22:17] info: Filling account info form
+[2026-05-23 23:22:35] info: Clicking Continue on account created page
+[2026-05-23 23:22:36] info: Clicking Logout nav link
+[2026-05-23 23:22:38] info: Logging in as: suresh.ui.1779558728604@mailtest.dev
+[2026-05-23 23:22:42] info: Navigating to Products page
+[2026-05-23 23:22:43] info: Adding first product to cart
+[2026-05-23 23:22:46] info: Add to cart modal appeared
+[2026-05-23 23:22:46] info: Clicking View Cart from modal
+[2026-05-23 23:22:49] info: Proceeding to checkout
+[2026-05-23 23:22:51] info: Clicking Delete Account nav link
+[2026-05-23 23:22:52] info: Clicking Continue after account deletion

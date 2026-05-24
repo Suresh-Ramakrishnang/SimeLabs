@@ -1,0 +1,4 @@
+[2026-05-23 23:23:02] info: TC_API_NEG_001 - POST to invalid endpoint
+[2026-05-23 23:23:02] info: UserApiService.postToInvalidEndpoint
+[2026-05-23 23:23:02] info: → GET https://reqres.in/api/users/2/invalid | {"headers":{"Accept":"application/json","Content-Type":"application/json","x-api-key":"pub_6184fe809a0fa9dca94366e52019c85f4893f6e35b9c0818da778169ada7bcd3"},"params":{}}
+[2026-05-23 23:23:02] warn: ← ERROR 404 GET /api/users/2/invalid Request failed with status code 404 | {"status":404,"data":{}}

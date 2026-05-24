@@ -1,0 +1,19 @@
+{
+  "name": "Suresh R",
+  "firstName": "Suresh",
+  "lastName": "R",
+  "emailPrefix": "suresh.ui",
+  "emailDomain": "mailtest.dev",
+  "password": "Test@123",
+  "birthDay": "10",
+  "birthMonth": "5",
+  "birthYear": "1998",
+  "company": "SimeLabs",
+  "address": "Whitefield",
+  "address2": "Bangalore",
+  "country": "India",
+  "state": "Karnataka",
+  "city": "Bangalore",
+  "zipcode": "560066",
+  "mobileNumber": "9876543210"
+}

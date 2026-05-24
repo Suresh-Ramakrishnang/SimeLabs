@@ -1,0 +1,45 @@
+{
+  "name": "playwright-enterprise-framework",
+  "version": "1.0.0",
+  "description": "Enterprise-level Playwright automation framework for Web and API testing",
+  "author": "QA Automation Engineer",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "test": "playwright test",
+    "test:web": "set REPORT_SCOPE=ui&& playwright test tests/web/",
+    "test:api": "set REPORT_SCOPE=api&& playwright test tests/api/",
+    "test:chrome": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "allure:strip-history:all": "powershell -NoProfile -Command \"Remove-Item -LiteralPath 'reports/all/allure-report/history' -Recurse -Force -ErrorAction SilentlyContinue; Remove-Item -Path 'reports/all/allure-report/widgets/*trend*.json' -Force -ErrorAction SilentlyContinue\"",
+    "allure:strip-history:web": "powershell -NoProfile -Command \"Remove-Item -LiteralPath 'reports/ui/allure-report/history' -Recurse -Force -ErrorAction SilentlyContinue; Remove-Item -Path 'reports/ui/allure-report/widgets/*trend*.json' -Force -ErrorAction SilentlyContinue\"",
+    "allure:strip-history:api": "powershell -NoProfile -Command \"Remove-Item -LiteralPath 'reports/api/allure-report/history' -Recurse -Force -ErrorAction SilentlyContinue; Remove-Item -Path 'reports/api/allure-report/widgets/*trend*.json' -Force -ErrorAction SilentlyContinue\"",
+    "allure:generate": "npx allure generate reports/all/allure-results --clean -o reports/all/allure-report && npm run allure:strip-history:all",
+    "allure:generate:web": "npx allure generate reports/ui/allure-results --clean -o reports/ui/allure-report && npm run allure:strip-history:web",
+    "allure:generate:api": "npx allure generate reports/api/allure-results --clean -o reports/api/allure-report && npm run allure:strip-history:api",
+    "allure:open:web": "npx allure open reports/ui/allure-report",
+    "allure:open:api": "npx allure open reports/api/allure-report",
+    "report:html": "playwright show-report reports/all/html",
+    "report:html:web": "playwright show-report reports/ui/html",
+    "report:html:api": "playwright show-report reports/api/html",
+    "lint": "eslint .",
+    "clean": "rimraf reports playwright-report allure-results allure-report screenshots/*.png logs/*.log"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "axios": "^1.7.2",
+    "dotenv": "^16.6.1",
+    "winston": "^3.13.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.45.0",
+    "allure-commandline": "^2.29.0",
+    "allure-playwright": "^3.0.2",
+    "rimraf": "^5.0.7"
+  }
+}
