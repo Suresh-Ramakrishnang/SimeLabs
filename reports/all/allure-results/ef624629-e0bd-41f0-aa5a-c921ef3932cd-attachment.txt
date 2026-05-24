@@ -1,4 +1,0 @@
-[2026-05-23 22:16:31] info: Navigating to Home page
-[2026-05-23 22:16:31] info: Navigating to: /
-[2026-05-23 22:16:34] info: Clicking Signup / Login nav link
-[2026-05-23 22:16:36] info: Entering signup details — name: Suresh, email: suresh1779554791644@gmail.com

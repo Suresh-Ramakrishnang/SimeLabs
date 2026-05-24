@@ -1,4 +1,0 @@
-[2026-05-23 23:23:01] info: TC_API_004 - Delete user id=2
-[2026-05-23 23:23:01] info: UserApiService.deleteUser — id: 2
-[2026-05-23 23:23:01] info: → DELETE https://reqres.in/api/users/2 | {"headers":{"Accept":"application/json","Content-Type":"application/json","x-api-key":"pub_6184fe809a0fa9dca94366e52019c85f4893f6e35b9c0818da778169ada7bcd3"}}
-[2026-05-23 23:23:02] info: ← 204 DELETE /api/users/2 | {"status":204,"data":""}

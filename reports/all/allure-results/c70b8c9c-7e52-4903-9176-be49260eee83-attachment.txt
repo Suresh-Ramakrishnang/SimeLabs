@@ -1,4 +1,0 @@
-[2026-05-23 20:04:30] info: TC_API_NEG_002 - Create user with empty payload
-[2026-05-23 20:04:30] info: UserApiService.createUserWithEmptyPayload
-[2026-05-23 20:04:30] info: → POST https://reqres.in/api/users | {"headers":{"Accept":"application/json","Content-Type":"application/json","x-api-key":"pub_6184fe809a0fa9dca94366e52019c85f4893f6e35b9c0818da778169ada7bcd3"},"data":{}}
-[2026-05-23 20:04:30] info: ← 201 POST /api/users | {"status":201,"data":{"id":"858","createdAt":"2026-05-23T14:34:30.723Z","_meta":{"powered_by":"ReqRes","docs_url":"https://app.reqres.in/documentation","upgrade_url":"https://app.reqres.in/upgrade","example_url":"https://app.reqres.in/examples/notes-app","variant":"v1_a","message":"Your data persists here. Add auth, logs, and custom schemas to build a real backend.","cta":{"label":"See example app","url":"https://app.reqres.in/examples/notes-app"},"context":"legacy_success"}}}
