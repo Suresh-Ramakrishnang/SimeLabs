@@ -1,3 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","49961","TC_UI_001 | User can register, login, checkout, and delete account","chromium","2026-05-23","passed","2026-05-23","","web\RegisterUser.spec.js","",""
-"","47553","Register new user","chromium","2026-05-23","passed","2026-05-23","","web\RegisterUser.spec.js","",""

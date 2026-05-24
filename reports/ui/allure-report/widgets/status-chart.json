@@ -1,1 +1,0 @@
-[{"uid":"c89f9796d47b2b65","name":"TC_UI_001 | User can register, login, checkout, and delete account","time":{"start":1779558435333,"stop":1779558485294,"duration":49961},"status":"passed","severity":"normal"},{"uid":"b57c7d0e37a2f9b4","name":"Register new user","time":{"start":1779556331742,"stop":1779556379295,"duration":47553},"status":"passed","severity":"normal"}]
